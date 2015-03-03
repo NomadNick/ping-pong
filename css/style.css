@@ -8,7 +8,6 @@ h1 {
 	margin: 0 auto;
 	font-weight: bold;
 	font-family: 'Slackey', cursive;
-	/*margin-bottom: 20px;*/
 }
 
 .ping-h1 {
@@ -26,10 +25,12 @@ h1 {
 
 .ping-small {
 	color: #00c853;
+	font-family: 'Slackey', cursive;
 }
 
 .pong-small {
 	color: #ff9100;
+	font-family: 'Slackey', cursive;
 }
 
 .instructions {
@@ -53,4 +54,9 @@ h1 {
 li {
 	margin: 0 auto;
 	list-style: none;
+	font-size: 1.5em;
+}
+
+footer {
+	height: 100px;
 }

@@ -9,7 +9,7 @@ $('.start-btn').on('click', function() {
 	$('.lead').empty();
 	$('.number-input, .start-btn').hide();
 	$('.start-over-btn').show();
-	for(var i = 1; i < userNumber; i++) {
+	for(var i = 1; i <= userNumber; i++) {
 	if(i % 3 === 0 && i % 5 === 0) {
 		$('.answer-list').append('<li><b class="ping-small">'+responses[0]+'-</b>'+'<b class="pong-small">'+responses[1]+'</b></li>');
 	}
