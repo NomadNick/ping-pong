@@ -11,13 +11,13 @@ $('.start-btn').on('click', function() {
 	$('.start-over-btn').show();
 	for(var i = 1; i <= userNumber; i++) {
 	if(i % 3 === 0 && i % 5 === 0) {
-		$('.answer-list').append('<li><b class="ping-small">'+responses[0]+'-</b>'+'<b class="pong-small">'+responses[1]+'</b></li>');
+		$('.answer-list').append('<li><b class="ping-small animated zoomInRight">'+responses[0]+'-</b>'+'<b class="pong-small animated zoomInLeft">'+responses[1]+'</b></li>');
 	}
 	else if(i % 3 === 0) {
-		$('.answer-list').append('<li><b class="ping-small">'+responses[0]+'!</b></li>');
+		$('.answer-list').append('<li><b class="ping-small animated zoomInRight">'+responses[0]+'!</b></li>');
 	}
 	else if(i % 5 === 0) {
-		$('.answer-list').append('<li><b class="pong-small">'+responses[1]+'</b></li>');
+		$('.answer-list').append('<li><b class="pong-small animated zoomInLeft">'+responses[1]+'</b></li>');
 	}
 	else {
 		$('.answer-list').append('<li><b>'+i+'</b></li');
