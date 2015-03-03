@@ -1,0 +1,56 @@
+body {
+	padding-top: 50px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0 auto;
+	font-weight: bold;
+	font-family: 'Slackey', cursive;
+	/*margin-bottom: 20px;*/
+}
+
+.ping-h1 {
+	color: #00c853;
+}
+
+.pong-h1 {
+	color: #ff9100;
+}
+
+.instructions {
+	line-height: 200%;
+	padding-top: 50px;
+}
+
+.ping-small {
+	color: #00c853;
+}
+
+.pong-small {
+	color: #ff9100;
+}
+
+.instructions {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.number-input {
+	margin: 0 auto;
+	max-width: 200px;
+}
+
+.start-btn {
+	margin-top: 20px;
+}
+
+.start-over-btn {
+	margin-bottom: 20px;
+}
+
+li {
+	margin: 0 auto;
+	list-style: none;
+}
